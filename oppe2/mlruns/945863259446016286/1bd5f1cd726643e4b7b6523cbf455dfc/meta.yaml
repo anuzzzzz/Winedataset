@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jupyter/oppe2/mlruns/945863259446016286/1bd5f1cd726643e4b7b6523cbf455dfc/artifacts
+end_time: 1755956564274
+entry_point_name: ''
+experiment_id: '945863259446016286'
+lifecycle_stage: active
+run_id: 1bd5f1cd726643e4b7b6523cbf455dfc
+run_name: Random Forest
+run_uuid: 1bd5f1cd726643e4b7b6523cbf455dfc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1755956559252
+status: 3
+tags: []
+user_id: jupyter

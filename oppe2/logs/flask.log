@@ -1,0 +1,21 @@
+INFO:__main__:Starting Wine Classifier API...
+INFO:__main__:✅ Model loaded from models/random_forest_model.pkl
+INFO:__main__:✅ Feature names loaded: 14 features
+INFO:__main__:✅ All models and data loaded successfully
+INFO:__main__:🍷 Wine Classifier API ready to serve!
+ * Serving Flask app 'app'
+ * Debug mode: off
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.128.0.31:5001
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2025 14:07:23] "GET /health HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2025 14:08:42] "GET /health HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2025 14:08:42] "GET /info HTTP/1.1" 200 -
+INFO:__main__:Received prediction request: {'alcohol': 13.0, 'malic_acid': 2.0, 'ash': 2.5, 'alcalinity_of_ash': 20.0, 'magnesium': 100.0, 'total_phenols': 2.5, 'flavanoids': 2.0, 'nonflavanoid_phenols': 0.3, 'proanthocyanins': 1.5, 'color_intensity': 5.0, 'hue': 1.0, 'od280/od315_of_diluted_wines': 2.5, 'proline': 800.0, 'location': 0}
+INFO:__main__:Prediction result: {'prediction': 0, 'probability': 0.64, 'wine_class': 'Cultivar 0', 'all_probabilities': {'Cultivar 0': 0.64, 'Cultivar 1': 0.23, 'Cultivar 2': 0.13}}
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2025 14:08:42] "POST /predict HTTP/1.1" 200 -
+INFO:__main__:Received batch prediction request with 2 samples
+INFO:__main__:Batch prediction completed: 2 results
+INFO:werkzeug:127.0.0.1 - - [23/Aug/2025 14:08:42] "POST /predict/batch HTTP/1.1" 200 -

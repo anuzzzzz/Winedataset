@@ -1,0 +1,6 @@
+artifact_location: file:///home/jupyter/oppe2/mlruns/945863259446016286
+creation_time: 1755956448309
+experiment_id: '945863259446016286'
+last_update_time: 1755956448309
+lifecycle_stage: active
+name: wine-classification-basic

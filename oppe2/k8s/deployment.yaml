@@ -1,0 +1,54 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: wine-classifier
+  namespace: wine-classifier
+  labels:
+    app: wine-classifier
+    version: v1
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: wine-classifier
+  template:
+    metadata:
+      labels:
+        app: wine-classifier
+        version: v1
+    spec:
+      containers:
+      - name: wine-classifier
+        image: wine-classifier:latest
+        imagePullPolicy: IfNotPresent
+        ports:
+        - containerPort: 5001
+          name: http
+        resources:
+          requests:
+            memory: "256Mi"
+            cpu: "250m"
+          limits:
+            memory: "512Mi"
+            cpu: "500m"
+        livenessProbe:
+          httpGet:
+            path: /health
+            port: 5001
+          initialDelaySeconds: 30
+          periodSeconds: 10
+          timeoutSeconds: 5
+          failureThreshold: 3
+        readinessProbe:
+          httpGet:
+            path: /health
+            port: 5001
+          initialDelaySeconds: 10
+          periodSeconds: 5
+          timeoutSeconds: 3
+          failureThreshold: 3
+        env:
+        - name: PYTHONUNBUFFERED
+          value: "1"
+        - name: OTEL_SERVICE_NAME
+          value: "wine-classifier"

@@ -1,0 +1,19 @@
+{
+  "total_requests": 435,
+  "successful_requests": 435,
+  "failed_requests": 0,
+  "success_rate": 100.0,
+  "actual_rps": 14.22710951288741,
+  "successful_rps": 14.22710951288741,
+  "response_times": {
+    "average": 0.3067137400309245,
+    "median": 0.32131290435791016,
+    "p95": 0.37512454986572263,
+    "p99": 0.46298026084899874,
+    "min": 0.16279220581054688,
+    "max": 0.5435886383056641
+  },
+  "status_codes": {
+    "200": 435
+  }
+}

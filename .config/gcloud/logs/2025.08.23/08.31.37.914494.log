@@ -1,0 +1,243 @@
+2025-08-23 08:31:37,989 DEBUG    root            Loaded Command Group: ['gcloud', 'services']
+2025-08-23 08:31:38,141 DEBUG    root            Loaded Command Group: ['gcloud', 'services', 'list']
+2025-08-23 08:31:38,144 DEBUG    root            Running [gcloud.services.list] with arguments: [--enabled: "True", --project: "elaborate-chess-461609-j9"]
+2025-08-23 08:31:38,304 DEBUG    root            Chosen display Format:
+          table(
+            config.name:label=NAME:sort=1,
+            config.title
+          )
+        
+2025-08-23 08:31:38,305 INFO     root            Display format: "
+          table(
+            config.name:label=NAME:sort=1,
+            config.title
+          )
+        "
+2025-08-23 08:31:38,309 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): serviceusage.googleapis.com:443
+2025-08-23 08:31:38,694 DEBUG    urllib3.connectionpool https://serviceusage.googleapis.com:443 "GET /v1/projects/elaborate-chess-461609-j9/services?alt=json&filter=state%3AENABLED&pageSize=200 HTTP/11" 200 None
+2025-08-23 08:31:38,852 INFO     ___FILE_ONLY___ NAME
+2025-08-23 08:31:38,852 INFO     ___FILE_ONLY___                                  
+2025-08-23 08:31:38,852 INFO     ___FILE_ONLY___ TITLE
+2025-08-23 08:31:38,852 INFO     ___FILE_ONLY___ 
+
+2025-08-23 08:31:38,852 INFO     ___FILE_ONLY___ aiplatform.googleapis.com
+2025-08-23 08:31:38,852 INFO     ___FILE_ONLY___             
+2025-08-23 08:31:38,852 INFO     ___FILE_ONLY___ Vertex AI API
+2025-08-23 08:31:38,852 INFO     ___FILE_ONLY___ 
+
+2025-08-23 08:31:38,852 INFO     ___FILE_ONLY___ analyticshub.googleapis.com
+2025-08-23 08:31:38,852 INFO     ___FILE_ONLY___           
+2025-08-23 08:31:38,853 INFO     ___FILE_ONLY___ Analytics Hub API
+2025-08-23 08:31:38,853 INFO     ___FILE_ONLY___ 
+
+2025-08-23 08:31:38,853 INFO     ___FILE_ONLY___ artifactregistry.googleapis.com
+2025-08-23 08:31:38,853 INFO     ___FILE_ONLY___       
+2025-08-23 08:31:38,853 INFO     ___FILE_ONLY___ Artifact Registry API
+2025-08-23 08:31:38,853 INFO     ___FILE_ONLY___ 
+
+2025-08-23 08:31:38,853 INFO     ___FILE_ONLY___ autoscaling.googleapis.com
+2025-08-23 08:31:38,853 INFO     ___FILE_ONLY___            
+2025-08-23 08:31:38,853 INFO     ___FILE_ONLY___ Cloud Autoscaling API
+2025-08-23 08:31:38,853 INFO     ___FILE_ONLY___ 
+
+2025-08-23 08:31:38,853 INFO     ___FILE_ONLY___ bigquery.googleapis.com
+2025-08-23 08:31:38,853 INFO     ___FILE_ONLY___               
+2025-08-23 08:31:38,853 INFO     ___FILE_ONLY___ BigQuery API
+2025-08-23 08:31:38,853 INFO     ___FILE_ONLY___ 
+
+2025-08-23 08:31:38,853 INFO     ___FILE_ONLY___ bigqueryconnection.googleapis.com
+2025-08-23 08:31:38,854 INFO     ___FILE_ONLY___     
+2025-08-23 08:31:38,854 INFO     ___FILE_ONLY___ BigQuery Connection API
+2025-08-23 08:31:38,854 INFO     ___FILE_ONLY___ 
+
+2025-08-23 08:31:38,854 INFO     ___FILE_ONLY___ bigquerydatapolicy.googleapis.com
+2025-08-23 08:31:38,854 INFO     ___FILE_ONLY___     
+2025-08-23 08:31:38,854 INFO     ___FILE_ONLY___ BigQuery Data Policy API
+2025-08-23 08:31:38,854 INFO     ___FILE_ONLY___ 
+
+2025-08-23 08:31:38,854 INFO     ___FILE_ONLY___ bigquerymigration.googleapis.com
+2025-08-23 08:31:38,854 INFO     ___FILE_ONLY___      
+2025-08-23 08:31:38,854 INFO     ___FILE_ONLY___ BigQuery Migration API
+2025-08-23 08:31:38,854 INFO     ___FILE_ONLY___ 
+
+2025-08-23 08:31:38,854 INFO     ___FILE_ONLY___ bigqueryreservation.googleapis.com
+2025-08-23 08:31:38,854 INFO     ___FILE_ONLY___    
+2025-08-23 08:31:38,854 INFO     ___FILE_ONLY___ BigQuery Reservation API
+2025-08-23 08:31:38,855 INFO     ___FILE_ONLY___ 
+
+2025-08-23 08:31:38,855 INFO     ___FILE_ONLY___ bigquerystorage.googleapis.com
+2025-08-23 08:31:38,855 INFO     ___FILE_ONLY___        
+2025-08-23 08:31:38,855 INFO     ___FILE_ONLY___ BigQuery Storage API
+2025-08-23 08:31:38,855 INFO     ___FILE_ONLY___ 
+
+2025-08-23 08:31:38,855 INFO     ___FILE_ONLY___ cloudapis.googleapis.com
+2025-08-23 08:31:38,855 INFO     ___FILE_ONLY___              
+2025-08-23 08:31:38,855 INFO     ___FILE_ONLY___ Google Cloud APIs
+2025-08-23 08:31:38,855 INFO     ___FILE_ONLY___ 
+
+2025-08-23 08:31:38,855 INFO     ___FILE_ONLY___ cloudbuild.googleapis.com
+2025-08-23 08:31:38,855 INFO     ___FILE_ONLY___             
+2025-08-23 08:31:38,855 INFO     ___FILE_ONLY___ Cloud Build API
+2025-08-23 08:31:38,855 INFO     ___FILE_ONLY___ 
+
+2025-08-23 08:31:38,855 INFO     ___FILE_ONLY___ cloudresourcemanager.googleapis.com
+2025-08-23 08:31:38,855 INFO     ___FILE_ONLY___   
+2025-08-23 08:31:38,856 INFO     ___FILE_ONLY___ Cloud Resource Manager API
+2025-08-23 08:31:38,856 INFO     ___FILE_ONLY___ 
+
+2025-08-23 08:31:38,856 INFO     ___FILE_ONLY___ cloudtrace.googleapis.com
+2025-08-23 08:31:38,856 INFO     ___FILE_ONLY___             
+2025-08-23 08:31:38,856 INFO     ___FILE_ONLY___ Cloud Trace API
+2025-08-23 08:31:38,856 INFO     ___FILE_ONLY___ 
+
+2025-08-23 08:31:38,856 INFO     ___FILE_ONLY___ compute.googleapis.com
+2025-08-23 08:31:38,856 INFO     ___FILE_ONLY___                
+2025-08-23 08:31:38,856 INFO     ___FILE_ONLY___ Compute Engine API
+2025-08-23 08:31:38,856 INFO     ___FILE_ONLY___ 
+
+2025-08-23 08:31:38,856 INFO     ___FILE_ONLY___ container.googleapis.com
+2025-08-23 08:31:38,856 INFO     ___FILE_ONLY___              
+2025-08-23 08:31:38,856 INFO     ___FILE_ONLY___ Kubernetes Engine API
+2025-08-23 08:31:38,856 INFO     ___FILE_ONLY___ 
+
+2025-08-23 08:31:38,856 INFO     ___FILE_ONLY___ containerfilesystem.googleapis.com
+2025-08-23 08:31:38,857 INFO     ___FILE_ONLY___    
+2025-08-23 08:31:38,857 INFO     ___FILE_ONLY___ Container File System API
+2025-08-23 08:31:38,857 INFO     ___FILE_ONLY___ 
+
+2025-08-23 08:31:38,857 INFO     ___FILE_ONLY___ containerregistry.googleapis.com
+2025-08-23 08:31:38,857 INFO     ___FILE_ONLY___      
+2025-08-23 08:31:38,857 INFO     ___FILE_ONLY___ Container Registry API
+2025-08-23 08:31:38,857 INFO     ___FILE_ONLY___ 
+
+2025-08-23 08:31:38,857 INFO     ___FILE_ONLY___ datacatalog.googleapis.com
+2025-08-23 08:31:38,857 INFO     ___FILE_ONLY___            
+2025-08-23 08:31:38,857 INFO     ___FILE_ONLY___ Google Cloud Data Catalog API
+2025-08-23 08:31:38,857 INFO     ___FILE_ONLY___ 
+
+2025-08-23 08:31:38,857 INFO     ___FILE_ONLY___ dataform.googleapis.com
+2025-08-23 08:31:38,857 INFO     ___FILE_ONLY___               
+2025-08-23 08:31:38,857 INFO     ___FILE_ONLY___ Dataform API
+2025-08-23 08:31:38,858 INFO     ___FILE_ONLY___ 
+
+2025-08-23 08:31:38,858 INFO     ___FILE_ONLY___ dataplex.googleapis.com
+2025-08-23 08:31:38,858 INFO     ___FILE_ONLY___               
+2025-08-23 08:31:38,858 INFO     ___FILE_ONLY___ Cloud Dataplex API
+2025-08-23 08:31:38,858 INFO     ___FILE_ONLY___ 
+
+2025-08-23 08:31:38,858 INFO     ___FILE_ONLY___ dataproc-control.googleapis.com
+2025-08-23 08:31:38,858 INFO     ___FILE_ONLY___       
+2025-08-23 08:31:38,858 INFO     ___FILE_ONLY___ Cloud Dataproc Control API
+2025-08-23 08:31:38,858 INFO     ___FILE_ONLY___ 
+
+2025-08-23 08:31:38,858 INFO     ___FILE_ONLY___ dataproc.googleapis.com
+2025-08-23 08:31:38,858 INFO     ___FILE_ONLY___               
+2025-08-23 08:31:38,858 INFO     ___FILE_ONLY___ Cloud Dataproc API
+2025-08-23 08:31:38,858 INFO     ___FILE_ONLY___ 
+
+2025-08-23 08:31:38,858 INFO     ___FILE_ONLY___ dataprocrm.googleapis.com
+2025-08-23 08:31:38,859 INFO     ___FILE_ONLY___             
+2025-08-23 08:31:38,859 INFO     ___FILE_ONLY___ Dataproc Resource Manager API
+2025-08-23 08:31:38,859 INFO     ___FILE_ONLY___ 
+
+2025-08-23 08:31:38,859 INFO     ___FILE_ONLY___ datastore.googleapis.com
+2025-08-23 08:31:38,859 INFO     ___FILE_ONLY___              
+2025-08-23 08:31:38,859 INFO     ___FILE_ONLY___ Cloud Datastore API
+2025-08-23 08:31:38,859 INFO     ___FILE_ONLY___ 
+
+2025-08-23 08:31:38,859 INFO     ___FILE_ONLY___ dns.googleapis.com
+2025-08-23 08:31:38,859 INFO     ___FILE_ONLY___                    
+2025-08-23 08:31:38,859 INFO     ___FILE_ONLY___ Cloud DNS API
+2025-08-23 08:31:38,859 INFO     ___FILE_ONLY___ 
+
+2025-08-23 08:31:38,859 INFO     ___FILE_ONLY___ firebaserules.googleapis.com
+2025-08-23 08:31:38,859 INFO     ___FILE_ONLY___          
+2025-08-23 08:31:38,859 INFO     ___FILE_ONLY___ Firebase Rules API
+2025-08-23 08:31:38,860 INFO     ___FILE_ONLY___ 
+
+2025-08-23 08:31:38,860 INFO     ___FILE_ONLY___ firestore.googleapis.com
+2025-08-23 08:31:38,860 INFO     ___FILE_ONLY___              
+2025-08-23 08:31:38,860 INFO     ___FILE_ONLY___ Cloud Firestore API
+2025-08-23 08:31:38,860 INFO     ___FILE_ONLY___ 
+
+2025-08-23 08:31:38,860 INFO     ___FILE_ONLY___ generativelanguage.googleapis.com
+2025-08-23 08:31:38,860 INFO     ___FILE_ONLY___     
+2025-08-23 08:31:38,860 INFO     ___FILE_ONLY___ Generative Language API
+2025-08-23 08:31:38,860 INFO     ___FILE_ONLY___ 
+
+2025-08-23 08:31:38,860 INFO     ___FILE_ONLY___ gkebackup.googleapis.com
+2025-08-23 08:31:38,860 INFO     ___FILE_ONLY___              
+2025-08-23 08:31:38,860 INFO     ___FILE_ONLY___ Backup for GKE API
+2025-08-23 08:31:38,860 INFO     ___FILE_ONLY___ 
+
+2025-08-23 08:31:38,861 INFO     ___FILE_ONLY___ iam.googleapis.com
+2025-08-23 08:31:38,861 INFO     ___FILE_ONLY___                    
+2025-08-23 08:31:38,861 INFO     ___FILE_ONLY___ Identity and Access Management (IAM) API
+2025-08-23 08:31:38,861 INFO     ___FILE_ONLY___ 
+
+2025-08-23 08:31:38,861 INFO     ___FILE_ONLY___ iamcredentials.googleapis.com
+2025-08-23 08:31:38,861 INFO     ___FILE_ONLY___         
+2025-08-23 08:31:38,861 INFO     ___FILE_ONLY___ IAM Service Account Credentials API
+2025-08-23 08:31:38,861 INFO     ___FILE_ONLY___ 
+
+2025-08-23 08:31:38,861 INFO     ___FILE_ONLY___ logging.googleapis.com
+2025-08-23 08:31:38,861 INFO     ___FILE_ONLY___                
+2025-08-23 08:31:38,861 INFO     ___FILE_ONLY___ Cloud Logging API
+2025-08-23 08:31:38,861 INFO     ___FILE_ONLY___ 
+
+2025-08-23 08:31:38,861 INFO     ___FILE_ONLY___ monitoring.googleapis.com
+2025-08-23 08:31:38,861 INFO     ___FILE_ONLY___             
+2025-08-23 08:31:38,861 INFO     ___FILE_ONLY___ Cloud Monitoring API
+2025-08-23 08:31:38,861 INFO     ___FILE_ONLY___ 
+
+2025-08-23 08:31:38,862 INFO     ___FILE_ONLY___ networkconnectivity.googleapis.com
+2025-08-23 08:31:38,862 INFO     ___FILE_ONLY___    
+2025-08-23 08:31:38,862 INFO     ___FILE_ONLY___ Network Connectivity API
+2025-08-23 08:31:38,862 INFO     ___FILE_ONLY___ 
+
+2025-08-23 08:31:38,862 INFO     ___FILE_ONLY___ notebooks.googleapis.com
+2025-08-23 08:31:38,862 INFO     ___FILE_ONLY___              
+2025-08-23 08:31:38,862 INFO     ___FILE_ONLY___ Notebooks API
+2025-08-23 08:31:38,862 INFO     ___FILE_ONLY___ 
+
+2025-08-23 08:31:38,862 INFO     ___FILE_ONLY___ oslogin.googleapis.com
+2025-08-23 08:31:38,862 INFO     ___FILE_ONLY___                
+2025-08-23 08:31:38,862 INFO     ___FILE_ONLY___ Cloud OS Login API
+2025-08-23 08:31:38,862 INFO     ___FILE_ONLY___ 
+
+2025-08-23 08:31:38,862 INFO     ___FILE_ONLY___ pubsub.googleapis.com
+2025-08-23 08:31:38,862 INFO     ___FILE_ONLY___                 
+2025-08-23 08:31:38,862 INFO     ___FILE_ONLY___ Cloud Pub/Sub API
+2025-08-23 08:31:38,863 INFO     ___FILE_ONLY___ 
+
+2025-08-23 08:31:38,863 INFO     ___FILE_ONLY___ servicemanagement.googleapis.com
+2025-08-23 08:31:38,863 INFO     ___FILE_ONLY___      
+2025-08-23 08:31:38,863 INFO     ___FILE_ONLY___ Service Management API
+2025-08-23 08:31:38,863 INFO     ___FILE_ONLY___ 
+
+2025-08-23 08:31:38,863 INFO     ___FILE_ONLY___ serviceusage.googleapis.com
+2025-08-23 08:31:38,863 INFO     ___FILE_ONLY___           
+2025-08-23 08:31:38,863 INFO     ___FILE_ONLY___ Service Usage API
+2025-08-23 08:31:38,863 INFO     ___FILE_ONLY___ 
+
+2025-08-23 08:31:38,863 INFO     ___FILE_ONLY___ sql-component.googleapis.com
+2025-08-23 08:31:38,863 INFO     ___FILE_ONLY___          
+2025-08-23 08:31:38,863 INFO     ___FILE_ONLY___ Cloud SQL
+2025-08-23 08:31:38,863 INFO     ___FILE_ONLY___ 
+
+2025-08-23 08:31:38,863 INFO     ___FILE_ONLY___ storage-api.googleapis.com
+2025-08-23 08:31:38,863 INFO     ___FILE_ONLY___            
+2025-08-23 08:31:38,863 INFO     ___FILE_ONLY___ Google Cloud Storage JSON API
+2025-08-23 08:31:38,864 INFO     ___FILE_ONLY___ 
+
+2025-08-23 08:31:38,864 INFO     ___FILE_ONLY___ storage-component.googleapis.com
+2025-08-23 08:31:38,864 INFO     ___FILE_ONLY___      
+2025-08-23 08:31:38,864 INFO     ___FILE_ONLY___ Cloud Storage
+2025-08-23 08:31:38,864 INFO     ___FILE_ONLY___ 
+
+2025-08-23 08:31:38,864 INFO     ___FILE_ONLY___ storage.googleapis.com
+2025-08-23 08:31:38,864 INFO     ___FILE_ONLY___                
+2025-08-23 08:31:38,864 INFO     ___FILE_ONLY___ Cloud Storage API
+2025-08-23 08:31:38,864 INFO     ___FILE_ONLY___ 
+
+2025-08-23 08:31:38,865 DEBUG    root            SDK update checks are disabled.

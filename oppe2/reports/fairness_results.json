@@ -1,0 +1,59 @@
+{
+  "metrics_by_group": {
+    "accuracy": {
+      "0": 1.0,
+      "1": 1.0
+    },
+    "count": {
+      "0": 26.0,
+      "1": 10.0
+    }
+  },
+  "group_0_accuracy": 1.0,
+  "group_1_accuracy": 1.0,
+  "accuracy_difference": 0.0,
+  "class_level_fairness": {
+    "Cultivar 0": {
+      "location_0": {
+        "accuracy": 1.0,
+        "prediction_rate": 0.3076923076923077,
+        "sample_count": 8,
+        "total_group_size": 26
+      },
+      "location_1": {
+        "accuracy": 1.0,
+        "prediction_rate": 0.4,
+        "sample_count": 4,
+        "total_group_size": 10
+      }
+    },
+    "Cultivar 1": {
+      "location_0": {
+        "accuracy": 1.0,
+        "prediction_rate": 0.38461538461538464,
+        "sample_count": 10,
+        "total_group_size": 26
+      },
+      "location_1": {
+        "accuracy": 1.0,
+        "prediction_rate": 0.4,
+        "sample_count": 4,
+        "total_group_size": 10
+      }
+    },
+    "Cultivar 2": {
+      "location_0": {
+        "accuracy": 1.0,
+        "prediction_rate": 0.3076923076923077,
+        "sample_count": 8,
+        "total_group_size": 26
+      },
+      "location_1": {
+        "accuracy": 1.0,
+        "prediction_rate": 0.2,
+        "sample_count": 2,
+        "total_group_size": 10
+      }
+    }
+  }
+}

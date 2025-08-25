@@ -1,0 +1,65 @@
+{
+  "poison_type": "outlier",
+  "poison_rate": 0.1,
+  "avg_mean_shift": 0.45522955471937215,
+  "avg_std_change": 3.461657971497882,
+  "max_mean_shift": 1.2024792684224557,
+  "feature_drift": {
+    "alcohol": {
+      "mean_shift": 0.9303431316353685,
+      "std_change": 11.461353600856906
+    },
+    "malic_acid": {
+      "mean_shift": 0.7658915602600412,
+      "std_change": 3.9073100028993375
+    },
+    "ash": {
+      "mean_shift": 0.0,
+      "std_change": 0.0
+    },
+    "alcalinity_of_ash": {
+      "mean_shift": 0.8811023992869665,
+      "std_change": 6.632473575236826
+    },
+    "magnesium": {
+      "mean_shift": 1.2024792684224557,
+      "std_change": 7.550394973708574
+    },
+    "total_phenols": {
+      "mean_shift": 0.2135609426983714,
+      "std_change": 2.8653453917021308
+    },
+    "flavanoids": {
+      "mean_shift": 0.1652498101384236,
+      "std_change": 1.354487705893538
+    },
+    "nonflavanoid_phenols": {
+      "mean_shift": 0.12228260346593711,
+      "std_change": 0.94922848414327
+    },
+    "proanthocyanins": {
+      "mean_shift": 0.43432209971177477,
+      "std_change": 2.311097974097125
+    },
+    "color_intensity": {
+      "mean_shift": 0.10721960934075914,
+      "std_change": 0.5925705460322687
+    },
+    "hue": {
+      "mean_shift": 0.9927345400666082,
+      "std_change": 6.400365760414333
+    },
+    "od280/od315_of_diluted_wines": {
+      "mean_shift": 0.2405998134339805,
+      "std_change": 2.5407833217910647
+    },
+    "proline": {
+      "mean_shift": 0.3174279876105246,
+      "std_change": 1.897800264194971
+    },
+    "location": {
+      "mean_shift": 0.0,
+      "std_change": 0.0
+    }
+  }
+}

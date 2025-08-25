@@ -1,0 +1,10 @@
+2025-08-25 05:49:25,586 DEBUG    root            Loaded Command Group: ['gcloud', 'projects']
+2025-08-25 05:49:25,594 DEBUG    root            Loaded Command Group: ['gcloud', 'projects', 'describe']
+2025-08-25 05:49:25,597 DEBUG    root            Running [gcloud.projects.describe] with arguments: [--format: "value(projectNumber)", PROJECT_ID_OR_NUMBER: "elaborate-chess-461609-j9"]
+2025-08-25 05:49:25,670 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudresourcemanager.googleapis.com:443
+2025-08-25 05:49:25,712 DEBUG    urllib3.connectionpool https://cloudresourcemanager.googleapis.com:443 "GET /v1/projects/elaborate-chess-461609-j9?alt=json HTTP/11" 200 None
+2025-08-25 05:49:25,714 DEBUG    root            Chosen display Format:default value(projectNumber)
+2025-08-25 05:49:25,715 INFO     root            Display format: "default value(projectNumber)"
+2025-08-25 05:49:25,738 INFO     ___FILE_ONLY___ 260144637009
+
+2025-08-25 05:49:25,739 DEBUG    root            SDK update checks are disabled.

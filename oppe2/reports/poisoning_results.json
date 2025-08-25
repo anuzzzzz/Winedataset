@@ -1,0 +1,68 @@
+{
+  "noise": {
+    "poison_0": {
+      "accuracy": 1.0,
+      "poison_rate": 0.0,
+      "poison_type": "noise"
+    },
+    "poison_5": {
+      "accuracy": 1.0,
+      "poison_rate": 0.05,
+      "poison_type": "noise"
+    },
+    "poison_10": {
+      "accuracy": 1.0,
+      "poison_rate": 0.1,
+      "poison_type": "noise"
+    },
+    "poison_50": {
+      "accuracy": 1.0,
+      "poison_rate": 0.5,
+      "poison_type": "noise"
+    }
+  },
+  "label_flip": {
+    "poison_0": {
+      "accuracy": 1.0,
+      "poison_rate": 0.0,
+      "poison_type": "label_flip"
+    },
+    "poison_5": {
+      "accuracy": 1.0,
+      "poison_rate": 0.05,
+      "poison_type": "label_flip"
+    },
+    "poison_10": {
+      "accuracy": 1.0,
+      "poison_rate": 0.1,
+      "poison_type": "label_flip"
+    },
+    "poison_50": {
+      "accuracy": 0.8055555555555556,
+      "poison_rate": 0.5,
+      "poison_type": "label_flip"
+    }
+  },
+  "outlier": {
+    "poison_0": {
+      "accuracy": 1.0,
+      "poison_rate": 0.0,
+      "poison_type": "outlier"
+    },
+    "poison_5": {
+      "accuracy": 1.0,
+      "poison_rate": 0.05,
+      "poison_type": "outlier"
+    },
+    "poison_10": {
+      "accuracy": 1.0,
+      "poison_rate": 0.1,
+      "poison_type": "outlier"
+    },
+    "poison_50": {
+      "accuracy": 1.0,
+      "poison_rate": 0.5,
+      "poison_type": "outlier"
+    }
+  }
+}

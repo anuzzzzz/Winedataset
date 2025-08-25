@@ -1,0 +1,8 @@
+2025-08-25 05:43:58,885 DEBUG    root            Loaded Command Group: ['gcloud', 'config']
+2025-08-25 05:43:58,969 DEBUG    root            Loaded Command Group: ['gcloud', 'config', 'get_value']
+2025-08-25 05:43:58,975 DEBUG    root            Running [gcloud.config.get-value] with arguments: [SECTION/PROPERTY: "project"]
+2025-08-25 05:43:59,050 DEBUG    root            Chosen display Format:value(.)
+2025-08-25 05:43:59,052 INFO     root            Display format: "value(.)"
+2025-08-25 05:43:59,052 INFO     ___FILE_ONLY___ elaborate-chess-461609-j9
+
+2025-08-25 05:43:59,053 DEBUG    root            SDK update checks are disabled.

@@ -1,0 +1,16 @@
+🍷 WINE CULTIVAR 2 - SHAP ANALYSIS SUMMARY
+
+Top 5 Most Important Features:
+  1. Od280/Od315 Of Diluted Wines
+  2. Color Intensity
+  3. Hue
+  4. Flavanoids
+  5. Ash
+
+Key Finding: Model decisions are driven by wine chemistry
+(OD280/OD315 ratio, color intensity, hue, flavanoids),
+not location, ensuring fair and scientifically-based classification.
+
+The SHAP analysis reveals transparent, interpretable decision-making
+that aligns with wine science principles and provides clear explanations
+for each prediction, supporting regulatory compliance and expert validation.

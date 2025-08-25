@@ -1,0 +1,77 @@
+2025-08-23 09:45:02,944 DEBUG    root            Loaded Command Group: ['gcloud', 'container', 'clusters']
+2025-08-23 09:45:03,014 DEBUG    root            Loaded Command Group: ['gcloud', 'container', 'clusters', 'create']
+2025-08-23 09:45:03,297 DEBUG    root            Running [gcloud.container.clusters.create] with arguments: [--enable-autoscaling: "True", --machine-type: "e2-medium", --max-nodes: "5", --min-nodes: "1", --num-nodes: "3", --zone: "us-central1-a", NAME: "wine-cluster"]
+2025-08-23 09:45:03,448 INFO     ___FILE_ONLY___ Note: The Kubelet readonly port (10255) is now deprecated. Please update your workloads to use the recommended alternatives. See https://cloud.google.com/kubernetes-engine/docs/how-to/disable-kubelet-readonly-port for ways to check usage and for migration instructions.
+
+2025-08-23 09:45:03,450 INFO     ___FILE_ONLY___ Note: Your Pod address range (`--cluster-ipv4-cidr`) can accommodate at most 1008 node(s).
+
+2025-08-23 09:45:03,532 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): serviceusage.googleapis.com:443
+2025-08-23 09:45:03,632 DEBUG    urllib3.connectionpool https://serviceusage.googleapis.com:443 "GET /v1/projects/elaborate-chess-461609-j9/services/container.googleapis.com?alt=json HTTP/11" 200 None
+2025-08-23 09:45:03,702 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): container.googleapis.com:443
+2025-08-23 09:45:06,774 DEBUG    urllib3.connectionpool https://container.googleapis.com:443 "POST /v1/projects/elaborate-chess-461609-j9/locations/us-central1-a/clusters?alt=json HTTP/11" 200 None
+2025-08-23 09:45:06,787 INFO     ___FILE_ONLY___ Creating cluster wine-cluster in us-central1-a...
+2025-08-23 09:45:06,830 DEBUG    urllib3.connectionpool https://container.googleapis.com:443 "GET /v1/projects/elaborate-chess-461609-j9/locations/us-central1-a/operations/operation-1755942306664-d7b94e29-e21e-4f25-add6-9e114642dd97?alt=json HTTP/11" 200 None
+2025-08-23 09:45:11,870 DEBUG    urllib3.connectionpool https://container.googleapis.com:443 "GET /v1/projects/elaborate-chess-461609-j9/locations/us-central1-a/operations/operation-1755942306664-d7b94e29-e21e-4f25-add6-9e114642dd97?alt=json HTTP/11" 200 None
+2025-08-23 09:45:16,914 DEBUG    urllib3.connectionpool https://container.googleapis.com:443 "GET /v1/projects/elaborate-chess-461609-j9/locations/us-central1-a/operations/operation-1755942306664-d7b94e29-e21e-4f25-add6-9e114642dd97?alt=json HTTP/11" 200 None
+2025-08-23 09:45:21,956 DEBUG    urllib3.connectionpool https://container.googleapis.com:443 "GET /v1/projects/elaborate-chess-461609-j9/locations/us-central1-a/operations/operation-1755942306664-d7b94e29-e21e-4f25-add6-9e114642dd97?alt=json HTTP/11" 200 None
+2025-08-23 09:45:26,991 DEBUG    urllib3.connectionpool https://container.googleapis.com:443 "GET /v1/projects/elaborate-chess-461609-j9/locations/us-central1-a/operations/operation-1755942306664-d7b94e29-e21e-4f25-add6-9e114642dd97?alt=json HTTP/11" 200 None
+2025-08-23 09:45:32,025 DEBUG    urllib3.connectionpool https://container.googleapis.com:443 "GET /v1/projects/elaborate-chess-461609-j9/locations/us-central1-a/operations/operation-1755942306664-d7b94e29-e21e-4f25-add6-9e114642dd97?alt=json HTTP/11" 200 None
+2025-08-23 09:45:37,066 DEBUG    urllib3.connectionpool https://container.googleapis.com:443 "GET /v1/projects/elaborate-chess-461609-j9/locations/us-central1-a/operations/operation-1755942306664-d7b94e29-e21e-4f25-add6-9e114642dd97?alt=json HTTP/11" 200 None
+2025-08-23 09:45:42,106 DEBUG    urllib3.connectionpool https://container.googleapis.com:443 "GET /v1/projects/elaborate-chess-461609-j9/locations/us-central1-a/operations/operation-1755942306664-d7b94e29-e21e-4f25-add6-9e114642dd97?alt=json HTTP/11" 200 None
+2025-08-23 09:45:47,151 DEBUG    urllib3.connectionpool https://container.googleapis.com:443 "GET /v1/projects/elaborate-chess-461609-j9/locations/us-central1-a/operations/operation-1755942306664-d7b94e29-e21e-4f25-add6-9e114642dd97?alt=json HTTP/11" 200 None
+2025-08-23 09:45:52,186 DEBUG    urllib3.connectionpool https://container.googleapis.com:443 "GET /v1/projects/elaborate-chess-461609-j9/locations/us-central1-a/operations/operation-1755942306664-d7b94e29-e21e-4f25-add6-9e114642dd97?alt=json HTTP/11" 200 None
+2025-08-23 09:45:57,223 DEBUG    urllib3.connectionpool https://container.googleapis.com:443 "GET /v1/projects/elaborate-chess-461609-j9/locations/us-central1-a/operations/operation-1755942306664-d7b94e29-e21e-4f25-add6-9e114642dd97?alt=json HTTP/11" 200 None
+2025-08-23 09:46:02,263 DEBUG    urllib3.connectionpool https://container.googleapis.com:443 "GET /v1/projects/elaborate-chess-461609-j9/locations/us-central1-a/operations/operation-1755942306664-d7b94e29-e21e-4f25-add6-9e114642dd97?alt=json HTTP/11" 200 None
+2025-08-23 09:46:07,307 DEBUG    urllib3.connectionpool https://container.googleapis.com:443 "GET /v1/projects/elaborate-chess-461609-j9/locations/us-central1-a/operations/operation-1755942306664-d7b94e29-e21e-4f25-add6-9e114642dd97?alt=json HTTP/11" 200 None
+2025-08-23 09:46:12,346 DEBUG    urllib3.connectionpool https://container.googleapis.com:443 "GET /v1/projects/elaborate-chess-461609-j9/locations/us-central1-a/operations/operation-1755942306664-d7b94e29-e21e-4f25-add6-9e114642dd97?alt=json HTTP/11" 200 None
+2025-08-23 09:46:17,389 DEBUG    urllib3.connectionpool https://container.googleapis.com:443 "GET /v1/projects/elaborate-chess-461609-j9/locations/us-central1-a/operations/operation-1755942306664-d7b94e29-e21e-4f25-add6-9e114642dd97?alt=json HTTP/11" 200 None
+2025-08-23 09:46:22,443 DEBUG    urllib3.connectionpool https://container.googleapis.com:443 "GET /v1/projects/elaborate-chess-461609-j9/locations/us-central1-a/operations/operation-1755942306664-d7b94e29-e21e-4f25-add6-9e114642dd97?alt=json HTTP/11" 200 None
+2025-08-23 09:46:27,481 DEBUG    urllib3.connectionpool https://container.googleapis.com:443 "GET /v1/projects/elaborate-chess-461609-j9/locations/us-central1-a/operations/operation-1755942306664-d7b94e29-e21e-4f25-add6-9e114642dd97?alt=json HTTP/11" 200 None
+2025-08-23 09:46:32,552 DEBUG    urllib3.connectionpool https://container.googleapis.com:443 "GET /v1/projects/elaborate-chess-461609-j9/locations/us-central1-a/operations/operation-1755942306664-d7b94e29-e21e-4f25-add6-9e114642dd97?alt=json HTTP/11" 200 None
+2025-08-23 09:46:37,587 DEBUG    urllib3.connectionpool https://container.googleapis.com:443 "GET /v1/projects/elaborate-chess-461609-j9/locations/us-central1-a/operations/operation-1755942306664-d7b94e29-e21e-4f25-add6-9e114642dd97?alt=json HTTP/11" 200 None
+2025-08-23 09:46:42,637 DEBUG    urllib3.connectionpool https://container.googleapis.com:443 "GET /v1/projects/elaborate-chess-461609-j9/locations/us-central1-a/operations/operation-1755942306664-d7b94e29-e21e-4f25-add6-9e114642dd97?alt=json HTTP/11" 200 None
+2025-08-23 09:46:47,684 DEBUG    urllib3.connectionpool https://container.googleapis.com:443 "GET /v1/projects/elaborate-chess-461609-j9/locations/us-central1-a/operations/operation-1755942306664-d7b94e29-e21e-4f25-add6-9e114642dd97?alt=json HTTP/11" 200 None
+2025-08-23 09:46:52,724 DEBUG    urllib3.connectionpool https://container.googleapis.com:443 "GET /v1/projects/elaborate-chess-461609-j9/locations/us-central1-a/operations/operation-1755942306664-d7b94e29-e21e-4f25-add6-9e114642dd97?alt=json HTTP/11" 200 None
+2025-08-23 09:46:57,762 DEBUG    urllib3.connectionpool https://container.googleapis.com:443 "GET /v1/projects/elaborate-chess-461609-j9/locations/us-central1-a/operations/operation-1755942306664-d7b94e29-e21e-4f25-add6-9e114642dd97?alt=json HTTP/11" 200 None
+2025-08-23 09:47:02,809 DEBUG    urllib3.connectionpool https://container.googleapis.com:443 "GET /v1/projects/elaborate-chess-461609-j9/locations/us-central1-a/operations/operation-1755942306664-d7b94e29-e21e-4f25-add6-9e114642dd97?alt=json HTTP/11" 200 None
+2025-08-23 09:47:07,889 DEBUG    urllib3.connectionpool https://container.googleapis.com:443 "GET /v1/projects/elaborate-chess-461609-j9/locations/us-central1-a/operations/operation-1755942306664-d7b94e29-e21e-4f25-add6-9e114642dd97?alt=json HTTP/11" 200 None
+2025-08-23 09:47:12,927 DEBUG    urllib3.connectionpool https://container.googleapis.com:443 "GET /v1/projects/elaborate-chess-461609-j9/locations/us-central1-a/operations/operation-1755942306664-d7b94e29-e21e-4f25-add6-9e114642dd97?alt=json HTTP/11" 200 None
+2025-08-23 09:47:17,961 DEBUG    urllib3.connectionpool https://container.googleapis.com:443 "GET /v1/projects/elaborate-chess-461609-j9/locations/us-central1-a/operations/operation-1755942306664-d7b94e29-e21e-4f25-add6-9e114642dd97?alt=json HTTP/11" 200 None
+2025-08-23 09:47:22,995 DEBUG    urllib3.connectionpool https://container.googleapis.com:443 "GET /v1/projects/elaborate-chess-461609-j9/locations/us-central1-a/operations/operation-1755942306664-d7b94e29-e21e-4f25-add6-9e114642dd97?alt=json HTTP/11" 200 None
+2025-08-23 09:47:28,037 DEBUG    urllib3.connectionpool https://container.googleapis.com:443 "GET /v1/projects/elaborate-chess-461609-j9/locations/us-central1-a/operations/operation-1755942306664-d7b94e29-e21e-4f25-add6-9e114642dd97?alt=json HTTP/11" 200 None
+2025-08-23 09:47:33,073 DEBUG    urllib3.connectionpool https://container.googleapis.com:443 "GET /v1/projects/elaborate-chess-461609-j9/locations/us-central1-a/operations/operation-1755942306664-d7b94e29-e21e-4f25-add6-9e114642dd97?alt=json HTTP/11" 200 None
+2025-08-23 09:47:38,119 DEBUG    urllib3.connectionpool https://container.googleapis.com:443 "GET /v1/projects/elaborate-chess-461609-j9/locations/us-central1-a/operations/operation-1755942306664-d7b94e29-e21e-4f25-add6-9e114642dd97?alt=json HTTP/11" 200 None
+2025-08-23 09:47:43,156 DEBUG    urllib3.connectionpool https://container.googleapis.com:443 "GET /v1/projects/elaborate-chess-461609-j9/locations/us-central1-a/operations/operation-1755942306664-d7b94e29-e21e-4f25-add6-9e114642dd97?alt=json HTTP/11" 200 None
+2025-08-23 09:47:48,200 DEBUG    urllib3.connectionpool https://container.googleapis.com:443 "GET /v1/projects/elaborate-chess-461609-j9/locations/us-central1-a/operations/operation-1755942306664-d7b94e29-e21e-4f25-add6-9e114642dd97?alt=json HTTP/11" 200 None
+2025-08-23 09:47:53,245 DEBUG    urllib3.connectionpool https://container.googleapis.com:443 "GET /v1/projects/elaborate-chess-461609-j9/locations/us-central1-a/operations/operation-1755942306664-d7b94e29-e21e-4f25-add6-9e114642dd97?alt=json HTTP/11" 200 None
+2025-08-23 09:47:58,277 DEBUG    urllib3.connectionpool https://container.googleapis.com:443 "GET /v1/projects/elaborate-chess-461609-j9/locations/us-central1-a/operations/operation-1755942306664-d7b94e29-e21e-4f25-add6-9e114642dd97?alt=json HTTP/11" 200 None
+2025-08-23 09:48:03,329 DEBUG    urllib3.connectionpool https://container.googleapis.com:443 "GET /v1/projects/elaborate-chess-461609-j9/locations/us-central1-a/operations/operation-1755942306664-d7b94e29-e21e-4f25-add6-9e114642dd97?alt=json HTTP/11" 200 None
+2025-08-23 09:48:08,364 DEBUG    urllib3.connectionpool https://container.googleapis.com:443 "GET /v1/projects/elaborate-chess-461609-j9/locations/us-central1-a/operations/operation-1755942306664-d7b94e29-e21e-4f25-add6-9e114642dd97?alt=json HTTP/11" 200 None
+2025-08-23 09:48:13,399 DEBUG    urllib3.connectionpool https://container.googleapis.com:443 "GET /v1/projects/elaborate-chess-461609-j9/locations/us-central1-a/operations/operation-1755942306664-d7b94e29-e21e-4f25-add6-9e114642dd97?alt=json HTTP/11" 200 None
+2025-08-23 09:48:18,456 DEBUG    urllib3.connectionpool https://container.googleapis.com:443 "GET /v1/projects/elaborate-chess-461609-j9/locations/us-central1-a/operations/operation-1755942306664-d7b94e29-e21e-4f25-add6-9e114642dd97?alt=json HTTP/11" 200 None
+2025-08-23 09:48:23,501 DEBUG    urllib3.connectionpool https://container.googleapis.com:443 "GET /v1/projects/elaborate-chess-461609-j9/locations/us-central1-a/operations/operation-1755942306664-d7b94e29-e21e-4f25-add6-9e114642dd97?alt=json HTTP/11" 200 None
+2025-08-23 09:48:28,539 DEBUG    urllib3.connectionpool https://container.googleapis.com:443 "GET /v1/projects/elaborate-chess-461609-j9/locations/us-central1-a/operations/operation-1755942306664-d7b94e29-e21e-4f25-add6-9e114642dd97?alt=json HTTP/11" 200 None
+2025-08-23 09:48:33,602 DEBUG    urllib3.connectionpool https://container.googleapis.com:443 "GET /v1/projects/elaborate-chess-461609-j9/locations/us-central1-a/operations/operation-1755942306664-d7b94e29-e21e-4f25-add6-9e114642dd97?alt=json HTTP/11" 200 None
+2025-08-23 09:48:38,640 DEBUG    urllib3.connectionpool https://container.googleapis.com:443 "GET /v1/projects/elaborate-chess-461609-j9/locations/us-central1-a/operations/operation-1755942306664-d7b94e29-e21e-4f25-add6-9e114642dd97?alt=json HTTP/11" 200 None
+2025-08-23 09:48:43,680 DEBUG    urllib3.connectionpool https://container.googleapis.com:443 "GET /v1/projects/elaborate-chess-461609-j9/locations/us-central1-a/operations/operation-1755942306664-d7b94e29-e21e-4f25-add6-9e114642dd97?alt=json HTTP/11" 200 None
+2025-08-23 09:48:48,719 DEBUG    urllib3.connectionpool https://container.googleapis.com:443 "GET /v1/projects/elaborate-chess-461609-j9/locations/us-central1-a/operations/operation-1755942306664-d7b94e29-e21e-4f25-add6-9e114642dd97?alt=json HTTP/11" 200 None
+2025-08-23 09:48:52,503 DEBUG    root            (gcloud.container.clusters.create) Aborted by user.
+Traceback (most recent call last):
+  File "/usr/bin/../lib/google-cloud-sdk/lib/googlecloudsdk/calliope/cli.py", line 985, in Execute
+    resources = calliope_command.Run(cli=self, args=args)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/bin/../lib/google-cloud-sdk/lib/googlecloudsdk/calliope/backend.py", line 945, in Run
+    resources = command_instance.Run(args)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/bin/../lib/google-cloud-sdk/lib/surface/container/clusters/create.py", line 1394, in Run
+    operation = adapter.WaitForOperation(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/bin/../lib/google-cloud-sdk/lib/googlecloudsdk/api_lib/container/api_adapter.py", line 2213, in WaitForOperation
+    operation = _WaitForOperation()
+                ^^^^^^^^^^^^^^^^^^^
+  File "/usr/bin/../lib/google-cloud-sdk/lib/googlecloudsdk/api_lib/container/api_adapter.py", line 2204, in _WaitForOperation
+    time.sleep(poll_period_s)
+  File "/usr/bin/../lib/google-cloud-sdk/lib/googlecloudsdk/core/console/progress_tracker.py", line 154, in _CtrlCHandler
+    raise console_io.OperationCancelledError(self._aborted_message)
+googlecloudsdk.core.console.console_io.OperationCancelledError: Aborted by user.
+2025-08-23 09:48:52,630 ERROR    root            (gcloud.container.clusters.create) Aborted by user.
